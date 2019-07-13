@@ -1,5 +1,5 @@
-var Blockbank = artifacts.require("./Blockbank.sol");
+var Election = artifacts.require("./Election.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Blockbank);
+  deployer.deploy(Election);
 };
